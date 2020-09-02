@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A E L I N - Page template</title>
+    <!--Meta tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--bootstrap|css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--additional|css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <!--Googlefont-1-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--font Awesome-->
+    <script src="https://kit.fontawesome.com/984b75d004.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</head>
+<body>
+    <section>
+    <div class="main-bg shadow">
+        <div class="container"> 
+            <div class="jumbotron ">
+                <div class="row">
+                    <div class="col-md-6" style="margin-bottom: 2rem">
+                        <h1 class="display-4 color1" style="font-family:'Baloo Tamma 2', cursive;">A E L I N</h1>
+                        <p class="lead color1">Welcome to AELIN.</p>
+                        <p class="text-muted "> Log In With - </p><hr>
+                            <div class="social-icon-pack ">
+                                <button class="btn-style"><i class="fab fa-google social-icon-pack2"></i>&nbsp; Google</button>
+                            </div>
+                    </div>
+                     <div class="col-md-6">
+                     <div class="description">
+                         <span class="color1">Log In</span>&nbsp; | <a href="register.html" >Register</a><br><br>
+                         
+              <form novalidate action="register.html" id="form" method="post" onsubmit=" return validate() ">
+                  <input type="email" id="email" class="input" placeholder="Email" style="display:block;">
+                  <small style=" font-style: italic;" id="error"></small>
+                  <input type="password" id="password" class="input" placeholder="Password" style="display:block;">
+                  <small style="font-size: 0.7rem; font-style: italic;" id="passerror"></small>
+                  <a href="forgetPass.html" style="text-decoration: none;font-size: 12px;display: block;">Forgot password?</a>
+                  <input type="submit" class="btn btn-danger" value="Log-In" style="margin-bottom: 10px;"><br>
+                  <input class="form-check-input" style="margin-left: 5px;margin-top: 7px;" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" style="font-size: 12px;margin-left: 22px;" for="defaultCheck1"><b>Keep me logged in</b></label><br>
+              </form>
+                         
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<!--attachments-->
+    <!--bootstrap|js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

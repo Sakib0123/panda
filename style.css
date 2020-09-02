@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom ,rgb(0, 70, 45) 60% ,#FFFCEB 40%);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.9);
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-bg{
+    background: #f7f7f7;
+    width: 50%;
+    height: 65vh;
+    padding: 1rem;
+    border-radius: 1rem;
+ }
+.jumbotron{
+    background: transparent;
+    width: 100%;
+}
+.color{
+    color: #FDC000;
+}
+.color1{
+    color: rgb(0, 70, 45);
+}
+.display-4 {
+    font-size: 2rem;
+}
+.lead{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.input{
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgba(0, 70, 45,0.7);
+    border-radius: 0.4rem;
+}
+::-webkit-input-placeholder{
+    color: rgba(0,0,0,1);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 0.3rem;
+}
+b{
+    font-weight: 500;
+}
+.btn-danger{
+    background: rgb(253, 192, 0);
+    border-color: rgb(253, 192, 0);
+    color: #000;
+    font-weight: 400;
+    font-family:'Baloo Tamma 2', cursive;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+}
+.btn-style{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.btn-danger:hover{
+    background: rgb(0, 70, 45);
+    border-color:rgb(0, 70, 45);
+    color: #000;
+    transition-duration: 1s;
+}
+
+
+@media screen and (max-width: 767px){
+    section{
+    display: flex;
+    align-items: flex-start;
+}
+    .main-bg{
+    width: 80%;
+    height: auto;
+ }
+    .description{
+    float: left;
+}
+}
